@@ -1,0 +1,30 @@
+https://pip.pypa.io/en/latest/reference/pip_list/
+lister les modules qui ne sont plus à jour
+pip list --outdated
+
+lister les modules installés
+
+pip list-l
+
+Package                Version
+---------------------- -------
+Faker                  1.0.1
+selenium               3.141.0
+setuptools             39.1.0
+six                    1.12.0
+text-unidecode         1.2
+unittest-data-provider 1.0.1
+unittest-xml-reporting 2.2.0
+urllib3                1.24.1
+xlwt                   1.3.0
+
+afficher les détailes d'un module
+pip show selenium
+
+
+https://pip.pypa.io/en/latest/reference/pip_uninstall/
+pip uninstall -y Faker
+pip uninstall -y xlwt
+
+forcer la mise à jour de pip
+python -m pip install -U --force-reinstall pip
