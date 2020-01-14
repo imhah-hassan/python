@@ -1,1 +1,4 @@
 /exercices/.idea
+/selenium/__pycache__
+/selenium/.idea
+/selenium/.pytest_cache
