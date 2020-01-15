@@ -18,6 +18,7 @@ class Login(unittest.TestCase):
         driver.find_element_by_id("txtPassword").clear()
         driver.find_element_by_id("txtPassword").send_keys("T€st$2020")
         driver.find_element_by_id("btnLogin").click()
+
         driver.find_element_by_id("welcome").click()
         driver.find_element_by_xpath("//a[contains(@href, 'auth/logout')]").click()
 
